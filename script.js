@@ -11,7 +11,7 @@ const monthText = String(month).padStart(2, "0");
 const dayText = String(day).padStart(2, "0");
 
 const dateText = "Today is " + monthText + "/" + dayText + "/" + year;
-document.getElementById("dateOutput").textContent = dateMessage;
+document.getElementById("dateOutput").textContent = dateText;
 
 // Number conversion
 
